@@ -1,0 +1,16 @@
+gui:
+  gui-names:
+    main-menu: "&aQuests"
+    levels-menu: "&aQuests &7- levels"
+  item-names:
+    proceed-to-levels: "&aProceed to main menu"
+
+messages:
+  permission-message: "&cYou do not have permission to run this command"
+  unable-to-start-level: "&cYou can not start this level"
+  level-not-found: "&cUnable to find level"
+  level-started: "&aLevel started"
+  level-already-started: "&cThis level has already been started"
+  level-already-completed: "&cThis level has already been completed"
+  level-not-unlocked: "&cYou must complete the previous level"
+  level-completed: "&a&lYou just completed level {level}"

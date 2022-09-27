@@ -1,0 +1,201 @@
+quests:
+  kills:
+    lvl1:
+      # Title
+      title: "Kill 3 players"
+      #Description
+      reward: 10 tokens
+      # Commands ran (in order) on completion
+      reward-commands:
+        - orbs give {player} 1
+        - bc &a{player} just won 10 tokens for killing 10 people
+      # Tracking type and amount
+      tracking:
+        amount: 3
+    lvl2:
+      title: "Kill 5 players"
+      reward: 20 tokens
+      reward-commands:
+        - token give {player} 20
+        - bc &a{player} just won 20 tokens for killing 20 ppl
+      tracking:
+        amount: 5
+    lvl3:
+      title: "Kill 15 players"
+      reward: 30$
+      reward-commands:
+        - eco give {player} 30
+        - bc &a{player} just won 30$ for playing for 3 hours
+      tracking:
+        amount: 15
+    lvl4:
+      title: "Kill 25 players"
+      reward: A crate key
+      reward-commands:
+        - crate give {player} key
+        - bc &a{player} just won a crate key for walking 10 blocks
+      tracking:
+        amount: 25
+    lvl5:
+      title: "Kill 40 players"
+      reward: 10 tokens
+      reward-commands:
+        - crate give {player} key 2
+        - bc &a{player} just won a crate key for walking 10 blocks
+      tracking:
+        amount: 40
+    lvl6:
+      title: "Kill 55 players"
+      reward: 10 tokens
+      reward-commands:
+        - crate give {player} key 2
+        - bc &a{player} just won a crate key for walking 10 blocks
+      tracking:
+        amount: 55
+    lvl7:
+      title: "Kill 100 players"
+      reward: 10 tokens
+      reward-commands:
+        - crate give {player} key 2
+        - bc &a{player} just won a crate key for walking 10 blocks
+      tracking:
+        amount: 100
+  playtime:
+    lvl13:
+      title: "30 minutes of playtime"
+      reward: 10 tokens
+      reward-commands:
+        - crate give {player} key 2
+        - bc &a{player} just won a crate key for walking 10 blocks
+      tracking:
+        amount: 1800000
+    lvl14:
+      title: "1 hour of playtime"
+      reward: 10 tokens
+      reward-commands:
+        - crate give {player} key 2
+        - bc &a{player} just won a crate key for walking 10 blocks
+      tracking:
+        amount: 3600000
+    lvl15:
+      title: "2 hour of playtime"
+      reward: 10 tokens
+      reward-commands:
+        - crate give {player} key 2
+        - bc &a{player} just won a crate key for walking 10 blocks
+      tracking:
+        amount: 7200000
+    lvl16:
+      title: "3 hour of playtime"
+      reward: 10 tokens
+      reward-commands:
+        - crate give {player} key 2
+        - bc &a{player} just won a crate key for walking 10 blocks
+      tracking:
+        amount: 10800000
+    lvl17:
+      title: "10 hour of playtime"
+      reward: 10 tokens
+      reward-commands:
+        - crate give {player} key 2
+        - bc &a{player} just won a crate key for walking 10 blocks
+      tracking:
+        amount: 36000000
+  walking:
+    lvl8:
+      title: "250 blocks"
+      reward: 10 tokens
+      reward-commands:
+        - crate give {player} key 2
+        - bc &a{player} just won a crate key for walking 10 blocks
+      tracking:
+        amount: 250
+    lvl9:
+      title: "500 blocks"
+      reward: 10 tokens
+      reward-commands:
+        - crate give {player} key 2
+        - bc &a{player} just won a crate key for walking 10 blocks
+      tracking:
+        amount: 500
+    lvl10:
+      title: "750 blocks"
+      reward: 10 tokens
+      reward-commands:
+        - crate give {player} key 2
+        - bc &a{player} just won a crate key for walking 10 blocks
+      tracking:
+        amount: 750
+    lvl11:
+      title: "1000 blocks"
+      reward: 10 tokens
+      reward-commands:
+        - crate give {player} key 2
+        - bc &a{player} just won a crate key for walking 10 blocks
+      tracking:
+        amount: 1000
+    lvl12:
+      title: "2000 blocks"
+      reward: 10 tokens
+      reward-commands:
+        - crate give {player} key 2
+        - bc &a{player} just won a crate key for walking 10 blocks
+      tracking:
+        amount: 2000
+  damage_dealt:
+    lvl18:
+      title: "50 hearts of damage"
+      reward: 10 tokens
+      reward-commands:
+        - crate give {player} key 2
+        - bc &a{player} just won a crate key for walking 10 blocks
+      tracking:
+        amount: 50
+    lvl19:
+      title: "100 hearts of damage"
+      reward: 10 tokens
+      reward-commands:
+        - crate give {player} key 2
+        - bc &a{player} just won a crate key for walking 10 blocks
+      tracking:
+        amount: 100
+    lvl20:
+      title: "200 hearts of damage"
+      reward: 10 tokens
+      reward-commands:
+        - crate give {player} key 2
+        - bc &a{player} just won a crate key for walking 10 blocks
+      tracking:
+        amount: 200
+    lvl21:
+      title: "300 hearts of damage"
+      reward: 10 tokens
+      reward-commands:
+        - crate give {player} key 2
+        - bc &a{player} just won a crate key for walking 10 blocks
+      tracking:
+        amount: 300
+    lvl22:
+      title: "500 hearts of damage"
+      reward: 10 tokens
+      reward-commands:
+        - crate give {player} key 2
+        - bc &a{player} just won a crate key for walking 10 blocks
+      tracking:
+        amount: 500
+    lvl23:
+      title: "600 hearts of damage"
+      reward: 10 tokens
+      reward-commands:
+        - crate give {player} key 2
+        - bc &a{player} just won a crate key for walking 10 blocks
+      tracking:
+        amount: 600
+    lvl24:
+      title: "1000 hearts of damage"
+      reward: 10 tokens
+      reward-commands:
+        - crate give {player} key 2
+        - bc &a{player} just won a crate key for walking 10 blocks
+      tracking:
+        amount: 1000

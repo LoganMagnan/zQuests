@@ -1,0 +1,9 @@
+name: zQuests
+author: Trixkz
+version: ${project.version}
+main: xyz.trixkz.zquests.ZQuests
+
+commands:
+  quests:
+  debug:
+  questsreload:
